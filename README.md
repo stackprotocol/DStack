@@ -15,5 +15,18 @@ Decentralised cloud storage might be the future of data storage and it appears t
 
 5.Decentralised storage data is cost-efficient. A big reason why this model is less expensive is due to it having a marketplace of vendors willing to offer high-quality storage space and this then results in healthy competition that drives down pricing. Additionally, data in decentralised storage is brought right at the users’ endpoints, further lowering costs.
 
-# Life Made Easy
+# Building for the future
 DStack brings Amazon Simple Storage Service (Amazon S3) standard to IPFS. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize data, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements.
+
+# DStack Roadmap
+
+DStack Roadmap
+- [x] DStack Ideation
+- [x] Product Ideation & Research
+- [x] Website Design
+- [x] IPFS Integration for storing files
+- [ ] IPFS Enhance security measures
+- [ ] Audits
+- [ ] E2E Testing
+- [ ] Hiring For Expansion
+- [ ] Marketing & Growth 
