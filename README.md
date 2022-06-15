@@ -1,8 +1,8 @@
-# DStack
+## DStack
 Open Source AWS Standard Decentralized Storage Protocol Built For Developers.
 Stack is an open source decentralized storage protocol that supports the AWS Standard. Stack will distribute data stored based on the AWS S3 standard in IPFS. It supports IPFS mainet and private networks by the deployment of IPFS nodes. Our goal is to make the life of a developer easier.
 
-# Why DStack?
+## Why DStack?
 Decentralised cloud storage might be the future of data storage and it appears that the future is coming sooner than expected. With the internet itself, a centralised ecosystem monopolised by a cartel of tech giants such as Amazon, Microsoft and Google, data stored in it via the cloud becomes exposed to and at risk of attacks. This necessitates an alternative data storage option in which data remains accessible but is kept safer and more secure and not under the control of big online entities. This is where DStack comes into play.
 
 1.With DStack Data is more secure and kept private. The traditional centralised system gives the hosts a great deal of power in that they can potentially eavesdrop on data being stored and even disclose them to third parties. This same model is also vulnerable to cyber attacks that can result in a data breach or complete loss. These issues are addressed by decentralised storage, mainly because data is stored in different nodes as fragments, making it near impossible to snoop in on them, disclose them to others or hack them. Data is also encrypted, thereby adding another layer of protection. This is by far the biggest benefit of this modern storage model.
@@ -15,10 +15,19 @@ Decentralised cloud storage might be the future of data storage and it appears t
 
 5.Decentralised storage data is cost-efficient. A big reason why this model is less expensive is due to it having a marketplace of vendors willing to offer high-quality storage space and this then results in healthy competition that drives down pricing. Additionally, data in decentralised storage is brought right at the users’ endpoints, further lowering costs.
 
-# Building for the future
+## Advantages
 DStack brings Amazon Simple Storage Service (Amazon S3) standard to IPFS. With cost-effective storage classes and easy-to-use management features, you can optimize costs, organize data, and configure fine-tuned access controls to meet specific business, organizational, and compliance requirements.
 
-# DStack Roadmap
+*1. Quantum-resistant end-to-end encryption - your files are always protected, in transit and at rest*
+
+*2. Trustless architecture - your data is safe, no matter where Peergos runs*
+
+*3. Protected metadata - your contact list, file sizes, and directory structure can never be seen, even by us*
+ 
+*4. Decentralized storage - store and access data across several servers without a hitch*
+
+
+## DStack Roadmap
 
 DStack Roadmap
 - [x] DStack Ideation
