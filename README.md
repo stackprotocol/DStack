@@ -51,7 +51,7 @@ sudo tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
 
 ```
 # clone project
-git clone https://github.com/StorerOS/DStack.git
+git clone https://github.com/stackprotocol/DStack.git
 # enter the directory
 cd DStack/
 # compile
@@ -60,7 +60,7 @@ make build
 
 ##### Run Up
 ```
-export IPOS_ACCESS_KEY_FILE=access_key 
-export IPOS_SECRET_KEY_FILE=secret_key
-ipos server
+export DSTACK_ACCESS_KEY_FILE=access_key 
+export DSTACK_SECRET_KEY_FILE=secret_key
+dstack server
 ```
