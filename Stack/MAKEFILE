@@ -1,10 +1,10 @@
 PACKAGES=$(shell go list ./...)
-OUTPUT?=build/ipos
+OUTPUT?=build/dstack
 
 export GO111MODULE = on
 
-BUILD_TAGS?='ipos'
-LD_FLAGS = -X github.com/storeros/ipos/version.GitCommit=`git rev-parse --short=8 HEAD` -s -w
+BUILD_TAGS?='dstack'
+LD_FLAGS = -X github.com/stackos/dstack/version.GitCommit=`git rev-parse --short=8 HEAD` -s -w
 BUILD_FLAGS = -ldflags "$(LD_FLAGS)"
 
 all: build

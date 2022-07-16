@@ -1,12 +1,12 @@
 #!/bin/sh
 set -e
 
-if [ "${1}" != "ipos" ]; then
+if [ "${1}" != "dstack" ]; then
     if [ -n "${1}" ]; then
-        set -- ipos "$@"
+        set -- dstack "$@"
     fi
 fi
 
-ipos --version
+dstack --version
 
 exec "$@"
