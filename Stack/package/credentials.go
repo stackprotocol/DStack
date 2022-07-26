@@ -46,12 +46,10 @@ const (
 	DefaultSecretKey = "iposadmin"
 )
 
-var (
-	DefaultCredentials = Credentials{
-		AccessKey: DefaultAccessKey,
-		SecretKey: DefaultSecretKey,
-	}
-)
+var DefaultCredentials = Credentials{
+	AccessKey: DefaultAccessKey,
+	SecretKey: DefaultSecretKey,
+}
 
 type Credentials struct {
 	AccessKey    string    `xml:"AccessKeyId" json:"accessKey,omitempty"`
@@ -79,6 +77,7 @@ func (cred Credentials) String() string {
 }
 
 func (cred Credentials) IsExpired() bool {
+	fmt.Print("EXPIRED")
 	if cred.Expiration.IsZero() || cred.Expiration.Equal(timeSentinel) {
 		return false
 	}
